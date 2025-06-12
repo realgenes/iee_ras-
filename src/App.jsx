@@ -1,15 +1,15 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
-import ContactUs from "./pages/ContactUs";
-import Events from "./pages/Events";
-import Team from "./pages/Team";
-import Exhibit from "./pages/Exhibit";
+import ContactUs from "./Pages/ContactUs"; // Updated from "./pages/ContactUs"
+import Events from "./Pages/Events"; // Updated from "./pages/Events"
+import Team from "./Pages/Team"; // Updated from "./pages/Team"
+import Exhibit from "./Pages/Exhibit"; // Updated from "./pages/Exhibit"
 import Home from "./Pages/Home";
-import PageNotFound from "./pages/PageNotFound";
-import Dashboard from "./pages/Dashboard";
-import News from "./pages/News";
-import ExhibitDetails from "./pages/ExhibitDetails";
+import PageNotFound from "./Pages/PageNotFound";
+import Dashboard from "./Pages/Dashboard";
+import News from "./Pages/News";
+import ExhibitDetails from "./Pages/ExhibitDetails";
 import SignIn from "./components/SignInPage";
 import Loader from "./components/Loader";
 
