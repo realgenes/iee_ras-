@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #d0e9ef;
+  
+}
+
+h1 {
+  color:black;
+}
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+.slick-dots li button:before {
+  color: #000; /* Change to desired dot color */
+}
+
+.slick-dots li.slick-active button:before {
+  color: #007bff; /* Active dot color */
+}

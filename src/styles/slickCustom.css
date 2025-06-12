@@ -1,0 +1,73 @@
+.slick-prev:before,
+.slick-next:before {
+  color: #f00;
+  font-size: 24px;
+}
+
+/* Dots customization */
+.slick-dots {
+  bottom: -40px;
+}
+
+.slick-dots li button:before {
+  font-size: 10px;
+  color: #1a365d;
+  opacity: 0.5;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #2563eb;
+  opacity: 1;
+}
+
+/* Arrows customization */
+.slick-prev, .slick-next {
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+}
+
+.slick-prev {
+  left: -50px;
+}
+
+.slick-next {
+  right: -50px;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-size: 40px;
+  color: #1a365d;
+  opacity: 0.8;
+}
+
+/* Slide customization */
+.slick-slide {
+  padding: 0 10px;
+  transition: transform 0.3s ease;
+}
+
+.slick-slide:hover {
+  transform: scale(1.02);
+}
+
+/* Track customization */
+.slick-track {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Make slider responsive */
+@media screen and (max-width: 768px) {
+  .slick-prev {
+    left: -30px;
+  }
+  
+  .slick-next {
+    right: -30px;
+  }
+  
+  .slick-prev:before, .slick-next:before {
+    font-size: 30px;
+  }
+}
